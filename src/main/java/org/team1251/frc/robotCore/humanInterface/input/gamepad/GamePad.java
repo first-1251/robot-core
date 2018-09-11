@@ -1,9 +1,9 @@
-package org.team1251.frc.robotCore.humanInput.gamepad;
+package org.team1251.frc.robotCore.humanInterface.input.gamepad;
 
 
-import org.team1251.frc.robotCore.humanInput.AnalogButton;
-import org.team1251.frc.robotCore.humanInput.Button;
-import org.team1251.frc.robotCore.humanInput.hid.HIDStick;
+import org.team1251.frc.robotCore.humanInterface.input.AnalogButton;
+import org.team1251.frc.robotCore.humanInterface.input.Button;
+import org.team1251.frc.robotCore.humanInterface.input.hid.HIDStick;
 
 /**
  * Abstract representation of a typical 12-button, dual-stick game pad.

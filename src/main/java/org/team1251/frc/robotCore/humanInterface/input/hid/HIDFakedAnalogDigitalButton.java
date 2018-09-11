@@ -1,7 +1,7 @@
-package org.team1251.frc.robotCore.humanInput.hid;
+package org.team1251.frc.robotCore.humanInterface.input.hid;
 
 import edu.wpi.first.wpilibj.GenericHID;
-import org.team1251.frc.robotCore.humanInput.AnalogButton;
+import org.team1251.frc.robotCore.humanInterface.input.AnalogButton;
 
 /**
  * A digital button from a GenericHID device that is pretending to be an analog button.

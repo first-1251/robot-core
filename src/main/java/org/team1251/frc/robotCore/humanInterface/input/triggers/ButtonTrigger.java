@@ -1,6 +1,6 @@
-package org.team1251.frc.robotCore.humanInput.triggers;
+package org.team1251.frc.robotCore.humanInterface.input.triggers;
 
-import org.team1251.frc.robotCore.humanInput.Button;
+import org.team1251.frc.robotCore.humanInterface.input.Button;
 
 /**
  * A WPI Lib Trigger based on any 1251 human-input button.

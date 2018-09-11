@@ -13,7 +13,7 @@ plugins {
 
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
-    api 'edu.wpi.first.wpilibj:wpilibj-java:2018.+'
+    api 'edu.wpi.first.wpilibj:wpilibj-java:2018.4.1'
 }
 
 // In this section you declare where to find the dependencies of your project

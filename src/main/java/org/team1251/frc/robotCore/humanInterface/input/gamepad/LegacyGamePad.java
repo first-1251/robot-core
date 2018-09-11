@@ -1,10 +1,10 @@
-package org.team1251.frc.robotCore.humanInput.gamepad;
+package org.team1251.frc.robotCore.humanInterface.input.gamepad;
 
 import edu.wpi.first.wpilibj.GenericHID;
-import org.team1251.frc.robotCore.humanInput.StickConfig;
-import org.team1251.frc.robotCore.humanInput.hid.HIDButton;
-import org.team1251.frc.robotCore.humanInput.hid.HIDFakedAnalogDigitalButton;
-import org.team1251.frc.robotCore.humanInput.hid.HIDStick;
+import org.team1251.frc.robotCore.humanInterface.input.StickConfig;
+import org.team1251.frc.robotCore.humanInterface.input.hid.HIDButton;
+import org.team1251.frc.robotCore.humanInterface.input.hid.HIDFakedAnalogDigitalButton;
+import org.team1251.frc.robotCore.humanInterface.input.hid.HIDStick;
 
 public class LegacyGamePad extends GamePad {
 

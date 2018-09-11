@@ -1,7 +1,7 @@
-package org.team1251.frc.robotCore.humanInput.hid;
+package org.team1251.frc.robotCore.humanInterface.input.hid;
 
 import edu.wpi.first.wpilibj.GenericHID;
-import org.team1251.frc.robotCore.humanInput.Button;
+import org.team1251.frc.robotCore.humanInterface.input.Button;
 
 /**
  * Represents a button which can be simply represented as "on" or "off".

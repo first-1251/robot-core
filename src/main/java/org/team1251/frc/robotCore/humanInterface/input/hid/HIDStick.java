@@ -1,8 +1,8 @@
-package org.team1251.frc.robotCore.humanInput.hid;
+package org.team1251.frc.robotCore.humanInterface.input.hid;
 
 import edu.wpi.first.wpilibj.GenericHID;
-import org.team1251.frc.robotCore.humanInput.Stick;
-import org.team1251.frc.robotCore.humanInput.StickConfig;
+import org.team1251.frc.robotCore.humanInterface.input.Stick;
+import org.team1251.frc.robotCore.humanInterface.input.StickConfig;
 
 /**
  * Represents a stick-type input element, such as a stick on a game pad.

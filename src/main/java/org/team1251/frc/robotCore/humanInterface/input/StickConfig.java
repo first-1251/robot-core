@@ -1,4 +1,4 @@
-package org.team1251.frc.robotCore.humanInput;
+package org.team1251.frc.robotCore.humanInterface.input;
 
 /**
  * Provides configuration for a stick-type input element.
