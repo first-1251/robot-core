@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
  *
  * @param <E> The Enum which represents the list of devices. The Enum must implement the Device interface.
  */
-public class DeviceManager<E extends Enum<E> & Device> {
+public class DeviceManager<E extends Enum<E> & PortAssignable> {
 
     /**
      * The Enum Class which represents the list of devices

@@ -45,13 +45,13 @@ public class RobotMapSample
 {
     // The Devices enum is declared. This does not need to be declared within your RobotMap. It could just as easy
     // be in its own class file. Some teams may be more comfortable having it in the RobotMap due to familiarity.
-    public enum Devices implements Device {
+    public enum DeviceAssignment implements PortAssignable {
         ELEVATOR_MOTOR(PortType.PWM, 0),
         ELEVATOR_SWITCH_TOP(PortType.DIO, 0);
 
         private final Assignment assignment;
 
-        Devices(PortType portType, int port) {
+        DeviceAssignment(PortType portType, int port) {
             this.assignment = new Assignment(portType, port);
         }
 
@@ -62,7 +62,7 @@ public class RobotMapSample
     }
 
     // The device manager is passed simply passed the Enum class.
-    public static final DeviceManager<Devices> deviceManager = new DeviceManager<>(Devices.class);
+    public static final DeviceManager<DeviceAssignment> deviceManager = new DeviceManager<>(DeviceAssignment.class);
 
     // Duplication detection must be explicitly invoked. Doing it as a static initializer makes sure it is done
     // as soon as the RobotMap is loaded.
